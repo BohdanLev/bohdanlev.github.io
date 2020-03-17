@@ -241,6 +241,7 @@ html, body {
     margin: 0 0 15px 0;
   }
   .back li{
+    display: none;
   }
   .back{
     background: none;

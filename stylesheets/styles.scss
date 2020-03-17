@@ -247,7 +247,9 @@ html, body {
   }
 
   .back {
-    li {}
+    li {
+      display: none;
+    }
 
     background: none;
   }
