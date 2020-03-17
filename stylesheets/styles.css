@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin:0px;
+  padding: 0px;
 }
 
 .sp-loading {
@@ -150,10 +152,9 @@ html, body {
 
 .back{
   background-color: #2B2F31;
-  position: relative;
 }
 
-footer .footer-cols {
+.footer-cols {
    display: grid;
    grid-gap: 10px;
    grid-template-columns: repeat(4, 1fr);
@@ -163,18 +164,28 @@ footer .footer-cols {
    position: relative;
   top: 15px; 
 }
- footer .footer-cols ul {
+  .footer-cols ul {
    list-style: none;
 }
 .footer-cols a{
   color: #D2D1D1;
 }
 
- footer .footer-bottom {
+ .footer-bottom {
    background: #222425;
-   padding: 0px;
+   margin-top: 0px;
    color:white;
    font-size: 15px;
+   position: absolute;
+   width: 100%;
+   height: 5%;
+   text-align: center;
+
+}
+
+.footer-bottom p{
+  position: relative;
+  top: -10px;
 }
 
 

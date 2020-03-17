@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .sp-loading {
@@ -119,6 +121,10 @@ html, body {
   }
 }
 
+.page-footer {
+  margin-top: auto;
+}
+
 .form-footer {
   text-align: center;
   position: relative;
@@ -141,6 +147,51 @@ html, body {
   text-align: center;
   padding: 0px;
   margin-top: 0px;
+}
+
+.user-image {
+  border-radius: 60%;
+  width: 200;
+  height: 150;
+}
+
+.back {
+  background-color: #2B2F31;
+}
+
+.footer-cols {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  top: 15px;
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: #D2D1D1;
+  }
+}
+
+.footer-bottom {
+  background: #222425;
+  margin-top: 0px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+
+  p {
+    position: relative;
+    top: -10px;
+  }
 }
 
 #sp-prev, #sp-next {
@@ -193,6 +244,10 @@ html, body {
 @media screen and (max-width: 400px) {
   .sp-wrap {
     margin: 0 0 15px 0;
+  }
+
+  .back li {
+    display: none;
   }
 }
 
