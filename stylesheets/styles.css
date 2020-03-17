@@ -135,6 +135,9 @@ html, body {
   margin-top: 0px;
 }
 
+.user-image{
+  border-radius: 50%;
+}
 
 
 #sp-prev, #sp-next {
