@@ -1,8 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+  background-color: #F6F6F6;
 }
 
 .sp-loading {
@@ -125,6 +124,14 @@ html, body {
   margin-top: auto;
 }
 
+.footer-copyright {
+  color: white;
+}
+
+.footer-text-title {
+  font-size: 15px;
+}
+
 .form-footer {
   text-align: center;
   position: relative;
@@ -150,7 +157,7 @@ html, body {
 }
 
 .user-image {
-  border-radius: 60%;
+  border-radius: 50%;
   width: 200;
   height: 150;
 }
@@ -192,6 +199,10 @@ html, body {
     position: relative;
     top: -10px;
   }
+}
+
+.service-card {
+  margin-top: 10px;
 }
 
 #sp-prev, #sp-next {
