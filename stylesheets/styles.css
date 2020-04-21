@@ -265,3 +265,12 @@ html, body {
     bottom: 25px;
   }
 }
+
+#error{
+  position: relative;
+  text-align: center;
+  color: red;
+}
+li:hover{
+  cursor: pointer;
+}
